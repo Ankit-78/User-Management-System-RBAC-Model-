@@ -33,8 +33,8 @@ This application provides a comprehensive user management system with the follow
 - **Styling**: CSS3
 
 ### Deployment
-- **Backend**: Render / Railway / Heroku / Vercel
-- **Frontend**: Vercel / Netlify
+- **Backend**: Render
+- **Frontend**: Vercel 
 - **Database**: MongoDB Atlas
 
 ## Project Structure
