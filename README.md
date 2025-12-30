@@ -103,8 +103,7 @@ npm install
 ```
 
 3. Create a `.env` file in the backend directory:
-```bash
-cp .env.example .env
+
 ```
 
 4. Update the `.env` file with your configuration:
@@ -571,6 +570,11 @@ npm test
 - ✅ Success notifications
 - ✅ Form validation
 - ✅ Confirmation modals
-- ✅ Clean, modern interface
+- ✅ Clean, modern interface 
 
+
+
+  ## DEPLOYMENT : (FRONTEND + BACKEND): 
+   **BACKEND** :  RENDER : https://user-management-system-rbac-model-1.onrender.com/ 
+   **FRONTEND**:  VERCEL : https://user-management-system-rbac-model.vercel.app/login
 ## POSTMAN API TESTING REQUEST(PUBLIC): https://elements.getpostman.com/redirect?entityId=32999119-0a6710d0-a08f-4b9d-95c3-156211a22740&entityType=collection
