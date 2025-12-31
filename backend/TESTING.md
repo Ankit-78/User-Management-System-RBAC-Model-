@@ -33,7 +33,7 @@ If you don't have MongoDB running locally, you can:
 
 1. **Use MongoDB Atlas** (Recommended for CI/CD):
    ```bash
-   export MONGODB_URI="mongodb+srv://username:password@cluster.mongodb.net/test-user-management"
+   export MONGODB_URI="mongodb+srv://<DB_USER>:<DB_PASSWORD>@<CLUSTER_URL>/<DB_NAME>"
    npm test
    ```
 
@@ -70,8 +70,8 @@ If you see JWT_SECRET errors:
 
 The test suite includes:
 - **Authentication Tests** (9 tests): Signup, login, token validation
-- **User Management Tests** (5 tests): Profile management, password change
-- **Admin Tests** (7 tests): User listing, activate/deactivate
+- **User Management Tests** (6 tests): Profile management, password change
+- **Admin Tests** (6 tests): User listing, activate/deactivate
 
 Total: **21 test cases**
 
