@@ -124,7 +124,8 @@ The backend server will run on `http://localhost:5000`
 
 6. (Optional) Create an admin user for testing:
 ```bash
-npm run seed:admin
+npm run seed:admin 
+
 ```
 
 This will create an admin user with:
